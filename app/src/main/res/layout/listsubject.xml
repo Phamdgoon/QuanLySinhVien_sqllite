@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:background="#7CE91E63">
+
+
+    <TextView
+        android:id="@+id/TextViewSubjectTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Môn học"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewSubjectTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Số tính chỉ :"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TextViewCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewSubjectTitle"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:src="@drawable/ic_baseline_subject_24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="31dp"
+        android:id="@+id/subjectinformation"
+        android:layout_marginLeft="200dp"/>
+    <ImageButton
+        android:src="@drawable/ic_baseline_update_24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="31dp"
+        android:id="@+id/subjectupdate"
+        android:layout_marginLeft="270dp"/>
+    <ImageButton
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="31dp"
+        android:id="@+id/subjectdelete"
+        android:layout_marginLeft="340dp"/>
+</RelativeLayout>
